@@ -1,36 +1,78 @@
 # cisco-network-diagrams-mcp-server
 
-MCP server exposing the 308 official icons from the **Cisco Systems
-Corporate Iconography** package — the free-to-use icon set Cisco itself
-distributes for diagrams and materials — so an LLM can look up the right
-icon and fetch it as an image while building a network topology diagram.
+MCP server that gives LLMs and MCP-compatible tools access to the 308 official icons from the **Cisco Systems Corporate Iconography** package.
 
-All icons are shipped pre-converted from Cisco's original CMYK JPEGs to
-**RGB PNG**. The CMYK originals render blank, discolored, or cropped in most
-web/collaborative tools (Miro, Figma, FigJam, browsers) — this fixes that at
-the source, and the PNGs are ~4x smaller too.
+The goal of this project is simple: make it easy to find the right Cisco icon for a network diagram and fetch it as a ready-to-use image.
 
-## Tools
+## What this project does
 
-| Tool | Description |
-|---|---|
-| `cisco_list_categories` | List the 7 catalog categories with icon counts. |
-| `cisco_search_icons` | Keyword search across id/name/description (metadata only). |
-| `cisco_list_icons` | Paginated listing, optionally filtered by category or curated-only. |
-| `cisco_get_icon` | Fetch one icon's metadata **and** its RGB PNG image by id. |
+This server provides four MCP tools:
 
-29 of the 308 icons are **curated**: the equipment most common in
-classroom/enterprise topologies (router, switch, firewall, server, access
-point, cloud, etc.), annotated with `glossary_name`, `function`, and
-`when_to_use` in addition to the base `description` every icon has.
+- `cisco_list_categories` — shows how the catalog is organized
+- `cisco_search_icons` — searches icons by keyword
+- `cisco_list_icons` — lists icons with pagination and filters
+- `cisco_get_icon` — returns the icon metadata and the PNG image
+
+In practice, the flow is usually:
+
+1. List the categories if you want to understand the catalog structure.
+2. Search for the icon you need.
+3. Fetch the icon image by its exact id.
+4. Place the image in your diagram tool.
+
+## Why this package exists
+
+Cisco originally distributes these icons as CMYK JPEGs. In many modern tools, those files can appear blank, cropped, or with the wrong colors.
+
+To avoid that problem, this package ships the icons already converted to **RGB PNG**. This keeps the visual result compatible with common tools like:
+
+- Figma
+- FigJam
+- Miro
+- Browsers
+- Other collaborative whiteboard tools
+
+The PNG files are also smaller and easier to handle.
+
+## Available tools
+
+| Tool | What it does | When to use it |
+|---|---|---|
+| `cisco_list_categories` | Lists the 7 catalog categories with their icon counts. | When you want to understand how the catalog is grouped. |
+| `cisco_search_icons` | Searches by id, name, and description. Returns metadata only. | When you know the concept but not the exact icon id. |
+| `cisco_list_icons` | Lists icons with pagination and optional filters. | When you want to browse icons in a category or the curated subset. |
+| `cisco_get_icon` | Returns the icon metadata plus the PNG image. | When you already know the exact icon id. |
+
+## Curated icons
+
+Out of the 308 icons, **29 are curated**.
+
+These are the icons most useful for classroom, documentation, and enterprise network diagrams, such as:
+
+- router
+- switch
+- firewall
+- server
+- access point
+- cloud
+
+Curated icons also include extra educational metadata:
+
+- `glossary_name`
+- `function`
+- `when_to_use`
+
+This makes them easier to understand, especially for people who are still learning network architecture.
 
 ## Installation
+
+### Global install
 
 ```bash
 npm install -g cisco-network-diagrams-mcp-server
 ```
 
-Or run without installing:
+### Run without installing
 
 ```bash
 npx cisco-network-diagrams-mcp-server
@@ -38,8 +80,9 @@ npx cisco-network-diagrams-mcp-server
 
 ## Usage with an MCP client
 
-Add to your client's MCP server config (e.g. Claude Desktop's
-`claude_desktop_config.json`):
+To use this server in an MCP client, add it to your configuration.
+
+Example for Claude Desktop:
 
 ```json
 {
@@ -52,20 +95,58 @@ Add to your client's MCP server config (e.g. Claude Desktop's
 }
 ```
 
-## Placing icons on a canvas
+## Example workflow
 
-The icons are **not square** — e.g. `router` is ~77×52 px. When placing the
-image returned by `cisco_get_icon` onto a fixed-size node (Figma, FigJam,
-Miro, etc.), use a **`FIT`** scale mode, never `FILL` — `FILL` stretches or
-crops non-square icons.
+### 1) Find an icon
+
+If you need a firewall icon, search first:
+
+- query: `firewall`
+
+If you want a broader result, you can try:
+
+- `router`
+- `switch`
+- `wireless router`
+- `cloud`
+- `access point`
+
+### 2) Fetch the image
+
+After finding the correct id, call `cisco_get_icon` with that id.
+
+Example:
+
+- id: `router`
+
+The tool returns:
+
+- the PNG image
+- the metadata for that icon
+
+### 3) Place it in your diagram
+
+The icons are **not square**.
+
+For example, `router` is approximately **77×52 px**. Because of that, when placing the image in Figma, FigJam, Miro, or a similar tool, use **FIT** instead of **FILL**.
+
+Why?
+
+- `FIT` preserves the original proportions
+- `FILL` can crop or distort the icon
+
+## Practical tips
+
+- Use `cisco_list_categories` if you want to explore the catalog from the start.
+- Use `cisco_search_icons` when you know the concept but not the exact id.
+- Use `cisco_get_icon` only after you already have the exact id.
+- If a search in Portuguese returns nothing, try the English equivalent.
+- If you are browsing the full catalog, remember that the curated set is usually the best starting point.
 
 ## License
 
-The icons are Cisco's registered trademark artwork. Cisco authorizes free
-use in diagrams and materials, unaltered (no redrawing, recoloring the
-artwork, or distorting proportions). The CMYK→RGB conversion in this package
-is a technical compatibility fix (same color, different color space), not a
-visual alteration.
+The icons are Cisco's registered trademark artwork. Cisco authorizes free use in diagrams and materials, as long as the artwork is not redrawn, recolored, or distorted.
 
-This package's own code is MIT-licensed; the icon artwork itself remains
-Cisco's property under Cisco's usage terms.
+The CMYK to RGB conversion in this package is only a technical compatibility fix so the icons render correctly in modern tools.
+
+This package's code is MIT-licensed, but the icon artwork itself remains Cisco's property under Cisco's usage terms.
