@@ -1,0 +1,2567 @@
+{
+  "source": "Cisco Systems Corporate Iconography (Cisco Brand Center) - uso livre, sem alteracoes, conforme licenca da Cisco",
+  "total_icons": 308,
+  "curated_count": 29,
+  "categories": {
+    "routing_l3": "Roteamento (Camada 3)",
+    "switching_l2": "Comutacao (Camada 2)",
+    "security": "Seguranca",
+    "servers_endpoints": "Servidores e Terminais",
+    "wireless_mobile": "Wireless e Mobile",
+    "cloud_wan_dc": "Nuvem, WAN e Data Center",
+    "misc": "Geral / Miscelanea (nao curado em detalhe)"
+  },
+  "icons": [
+    {
+      "id": "cloud",
+      "name": "cloud",
+      "file": "assets/icons/cloud.png",
+      "category": "cloud_wan_dc",
+      "curated": true,
+      "glossary_name": "Cloud",
+      "function": "Representa qualquer rede fora do controle/escopo do que está sendo diagramado — Internet, provedor ou serviço em nuvem.",
+      "when_to_use": "Internet, provedor ou servico em nuvem.",
+      "description": "Representa qualquer rede fora do controle/escopo do que está sendo diagramado — Internet, provedor ou serviço em nuvem."
+    },
+    {
+      "id": "local_director",
+      "name": "local director",
+      "file": "assets/icons/local_director.png",
+      "category": "cloud_wan_dc",
+      "curated": true,
+      "glossary_name": "Load Balancer",
+      "function": "Distribui a carga de requisições entre vários servidores para evitar sobrecarga.",
+      "when_to_use": "Ambientes de alta disponibilidade.",
+      "description": "Distribui a carga de requisições entre vários servidores para evitar sobrecarga."
+    },
+    {
+      "id": "storage_array",
+      "name": "storage array",
+      "file": "assets/icons/storage_array.png",
+      "category": "cloud_wan_dc",
+      "curated": true,
+      "glossary_name": "Storage / SAN",
+      "function": "Representa um sistema de armazenamento em rede (Storage Area Network).",
+      "when_to_use": "Diagramas de data center.",
+      "description": "Representa um sistema de armazenamento em rede (Storage Area Network)."
+    },
+    {
+      "id": "supercomputer",
+      "name": "supercomputer",
+      "file": "assets/icons/supercomputer.png",
+      "category": "cloud_wan_dc",
+      "curated": true,
+      "glossary_name": "Rack",
+      "function": "Representa o gabinete físico onde ficam instalados os equipamentos de data center.",
+      "when_to_use": "Representar o data center fisico.",
+      "description": "Representa o gabinete físico onde ficam instalados os equipamentos de data center."
+    },
+    {
+      "id": "100baset_hub",
+      "name": "100baset hub",
+      "file": "assets/icons/100baset_hub.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Hub Ethernet 100BaseT (Fast Ethernet): concentrador de rede que opera a 100 Mbps repetindo o sinal para todas as portas conectadas."
+    },
+    {
+      "id": "10700",
+      "name": "10700",
+      "file": "assets/icons/10700.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 10700: roteador/switch de borda usado por provedores de serviço para agregação de acesso de banda larga."
+    },
+    {
+      "id": "10ge_fcoe",
+      "name": "10GE_FCoE",
+      "file": "assets/icons/10ge_fcoe.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Módulo/interface 10 Gigabit Ethernet com suporte a FCoE (Fibre Channel over Ethernet), que converge tráfego de dados e de armazenamento na mesma rede."
+    },
+    {
+      "id": "15200",
+      "name": "15200",
+      "file": "assets/icons/15200.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 15200: equipamento da família Cisco ONS 15000, usado em redes ópticas de transporte (SONET/SDH)."
+    },
+    {
+      "id": "3174_cluster_contoller",
+      "name": "3174 cluster contoller",
+      "file": "assets/icons/3174_cluster_contoller.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Controlador de cluster IBM 3174 (versão de mesa): equipamento legado que conectava terminais a mainframes IBM."
+    },
+    {
+      "id": "3200_mobile_access_router",
+      "name": "3200 mobile access router",
+      "file": "assets/icons/3200_mobile_access_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 3200 Mobile Access Router: roteador robusto para uso móvel/veicular, como viaturas e veículos de transporte público."
+    },
+    {
+      "id": "3x74_cluster_controller",
+      "name": "3x74 cluster controller",
+      "file": "assets/icons/3x74_cluster_controller.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Controlador de cluster IBM 3X74 (versão de piso): mesma função do 3174, conectar terminais a um mainframe, em um gabinete maior."
+    },
+    {
+      "id": "6700",
+      "name": "6700",
+      "file": "assets/icons/6700.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 6700 series: módulo de linha para switches/roteadores Cisco usado em agregação de rede de operadoras."
+    },
+    {
+      "id": "7500ars_7513",
+      "name": "7500ars(7513)",
+      "file": "assets/icons/7500ars_7513.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 7500ARS (chassi 7513): roteador de grande porte da série 7500, usado como roteador de núcleo/backbone corporativo ou de operadora."
+    },
+    {
+      "id": "acs",
+      "name": "ACS",
+      "file": "assets/icons/acs.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ACS — Access Control Server: servidor Cisco de autenticação, autorização e registro de acesso (AAA)."
+    },
+    {
+      "id": "axp",
+      "name": "AXP",
+      "file": "assets/icons/axp.png",
+      "category": "misc",
+      "curated": false,
+      "description": "AXP: módulo de processamento avançado (Advanced Integration Module) usado em roteadores Cisco para agregar funções extras."
+    },
+    {
+      "id": "cube",
+      "name": "CUBE",
+      "file": "assets/icons/cube.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CUBE — Cisco Unified Border Element: elemento de borda (session border controller) que interliga redes de voz sobre IP distintas."
+    },
+    {
+      "id": "cisco_telepresence_manager",
+      "name": "Cisco telepresence manager",
+      "file": "assets/icons/cisco_telepresence_manager.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco TelePresence Manager: servidor que gerencia salas e agendamentos de chamadas de videoconferência Cisco TelePresence."
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "file": "assets/icons/clock.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de relógio, representando tempo, sincronismo ou agendamento."
+    },
+    {
+      "id": "content_acquirer",
+      "name": "Content Acquirer",
+      "file": "assets/icons/content_acquirer.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Content Acquirer: componente Cisco que coleta e importa conteúdo para distribuição em uma rede de cache."
+    },
+    {
+      "id": "ground_terminal",
+      "name": "Ground terminal",
+      "file": "assets/icons/ground_terminal.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ground terminal: terminal terrestre usado em comunicação via satélite."
+    },
+    {
+      "id": "mse",
+      "name": "MSE",
+      "file": "assets/icons/mse.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MSE — Mobility Services Engine: plataforma Cisco que agrega serviços de localização e mobilidade em redes sem fio."
+    },
+    {
+      "id": "mxe",
+      "name": "MXE",
+      "file": "assets/icons/mxe.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MXE — Media Experience Engine: dispositivo Cisco de transcodificação e processamento de mídia de vídeo."
+    },
+    {
+      "id": "mediator",
+      "name": "Mediator",
+      "file": "assets/icons/mediator.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Mediator: dispositivo que faz a mediação/tradução entre sistemas ou protocolos de rede diferentes."
+    },
+    {
+      "id": "nce",
+      "name": "NCE",
+      "file": "assets/icons/nce.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NCE: dispositivo Cisco de conectividade/cache de rede."
+    },
+    {
+      "id": "nce_router",
+      "name": "NCE router",
+      "file": "assets/icons/nce_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NCE router: variante roteador do dispositivo NCE."
+    },
+    {
+      "id": "nexus_1000",
+      "name": "Nexus 1000",
+      "file": "assets/icons/nexus_1000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Nexus 1000V: switch virtual Cisco que roda dentro de um hipervisor, gerenciando a rede de máquinas virtuais."
+    },
+    {
+      "id": "nexus_2000",
+      "name": "Nexus 2000",
+      "file": "assets/icons/nexus_2000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Nexus 2000 (Fabric Extender): atua como uma extensão remota de portas de um switch Nexus principal."
+    },
+    {
+      "id": "nexus_5000",
+      "name": "Nexus 5000",
+      "file": "assets/icons/nexus_5000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Nexus 5000: switch de data center usado para conectividade de alta velocidade entre servidores em rack."
+    },
+    {
+      "id": "nexus_7000",
+      "name": "Nexus 7000",
+      "file": "assets/icons/nexus_7000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Nexus 7000: switch modular de grande porte, usado no núcleo de data centers."
+    },
+    {
+      "id": "rf_modem",
+      "name": "RF modem",
+      "file": "assets/icons/rf_modem.png",
+      "category": "misc",
+      "curated": false,
+      "description": "RF modem: modem que transmite dados por radiofrequência."
+    },
+    {
+      "id": "service_module",
+      "name": "Service Module",
+      "file": "assets/icons/service_module.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Service Module: módulo genérico que adiciona um serviço específico a um chassi de rede."
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "file": "assets/icons/services.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando serviços de rede."
+    },
+    {
+      "id": "set_top_box",
+      "name": "Set top box",
+      "file": "assets/icons/set_top_box.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Set-top box (STB): decodificador conectado à TV para receber conteúdo digital ou de IPTV."
+    },
+    {
+      "id": "space_router",
+      "name": "Space router",
+      "file": "assets/icons/space_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Space router: roteador projetado para uso em comunicações espaciais/satelitais."
+    },
+    {
+      "id": "tp_mcu",
+      "name": "TP MCU",
+      "file": "assets/icons/tp_mcu.png",
+      "category": "misc",
+      "curated": false,
+      "description": "TP MCU — TelePresence Multipoint Control Unit: equipamento que gerencia sessões de videoconferência TelePresence com múltiplos participantes."
+    },
+    {
+      "id": "vss",
+      "name": "VSS",
+      "file": "assets/icons/vss.png",
+      "category": "misc",
+      "curated": false,
+      "description": "VSS — Virtual Switching System: tecnologia Cisco que combina dois switches físicos em um único switch lógico."
+    },
+    {
+      "id": "ace",
+      "name": "ace",
+      "file": "assets/icons/ace.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ACE — Application Control Engine: módulo Cisco de balanceamento de carga e aceleração de aplicações web."
+    },
+    {
+      "id": "adm",
+      "name": "adm",
+      "file": "assets/icons/adm.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ADM — Add-Drop Multiplexer: multiplexador óptico que insere/retira canais de tráfego em redes SONET/SDH."
+    },
+    {
+      "id": "androgynous_person",
+      "name": "androgynous person",
+      "file": "assets/icons/androgynous_person.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa/usuário, sem indicação de gênero — usado para representar um usuário qualquer no diagrama."
+    },
+    {
+      "id": "arrows_for_pointing",
+      "name": "arrows for pointing",
+      "file": "assets/icons/arrows_for_pointing.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Seta genérica usada para indicar direção ou apontar para um elemento em diagramas."
+    },
+    {
+      "id": "arrows_motion",
+      "name": "arrows motion",
+      "file": "assets/icons/arrows_motion.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Conjunto de setas em círculo indicando movimento ou fluxo de dados entre elementos de um diagrama."
+    },
+    {
+      "id": "arrows_other",
+      "name": "arrows-other",
+      "file": "assets/icons/arrows_other.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Variação genérica de seta para uso livre em diagramas de rede."
+    },
+    {
+      "id": "asic_processor",
+      "name": "asic processor",
+      "file": "assets/icons/asic_processor.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Processador ASIC (circuito integrado de aplicação específica): chip dedicado que acelera funções de rede diretamente em hardware."
+    },
+    {
+      "id": "ata",
+      "name": "ata",
+      "file": "assets/icons/ata.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ATA — Analog Telephone Adapter: adaptador que conecta um telefone analógico comum a uma rede de voz sobre IP (VoIP)."
+    },
+    {
+      "id": "atm_3800",
+      "name": "atm 3800",
+      "file": "assets/icons/atm_3800.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco ATM 3800: equipamento de rede ATM (Asynchronous Transfer Mode) dessa série de produtos."
+    },
+    {
+      "id": "atm_router",
+      "name": "atm router",
+      "file": "assets/icons/atm_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Roteador com interfaces ATM, usado em redes legadas de banda larga baseadas em ATM."
+    },
+    {
+      "id": "atm_switch",
+      "name": "atm switch",
+      "file": "assets/icons/atm_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Comutador para redes ATM: encaminha células de tamanho fixo (ao invés de pacotes de tamanho variável)."
+    },
+    {
+      "id": "atm_tag_sw_rtr",
+      "name": "atm tag sw rtr",
+      "file": "assets/icons/atm_tag_sw_rtr.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ATM Tag Switch Router: roteador/switch ATM com suporte a Tag Switching, tecnologia precursora do MPLS."
+    },
+    {
+      "id": "atmfast_gb_ethsw",
+      "name": "atmfast gb ethsw",
+      "file": "assets/icons/atmfast_gb_ethsw.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ATM Fast Gigabit Etherswitch: switch híbrido que combina portas ATM e Ethernet de alta velocidade."
+    },
+    {
+      "id": "avs",
+      "name": "avs",
+      "file": "assets/icons/avs.png",
+      "category": "misc",
+      "curated": false,
+      "description": "AVS — Application Velocity Engine: dispositivo Cisco de aceleração de aplicações em redes WAN."
+    },
+    {
+      "id": "bbfw",
+      "name": "bbfw",
+      "file": "assets/icons/bbfw.png",
+      "category": "misc",
+      "curated": false,
+      "description": "BBFW — Broadband Fixed Wireless: equipamento de acesso à internet sem fio de banda larga fixo (ponto a ponto ou ponto-multiponto)."
+    },
+    {
+      "id": "bbfw_media",
+      "name": "bbfw media",
+      "file": "assets/icons/bbfw_media.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Variante/unidade de mídia do equipamento de acesso sem fio de banda larga fixo (BBFW)."
+    },
+    {
+      "id": "bbs",
+      "name": "bbs",
+      "file": "assets/icons/bbs.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de estação/sistema de comunicação (variante de equipamento de rede da iconografia Cisco)."
+    },
+    {
+      "id": "bbsm",
+      "name": "bbsm",
+      "file": "assets/icons/bbsm.png",
+      "category": "misc",
+      "curated": false,
+      "description": "BBSM — Building Broadband Service Manager: servidor Cisco que gerenciava o acesso à internet (portal cativo) em hotéis e dormitórios."
+    },
+    {
+      "id": "brackets",
+      "name": "brackets",
+      "file": "assets/icons/brackets.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Símbolo de colchetes usado como elemento gráfico para agrupar itens em um diagrama."
+    },
+    {
+      "id": "branch_office",
+      "name": "branch office",
+      "file": "assets/icons/branch_office.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de prédio representando um escritório filial, distante da matriz da empresa."
+    },
+    {
+      "id": "breakout_box",
+      "name": "breakout box",
+      "file": "assets/icons/breakout_box.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Breakout box: dispositivo usado para testar, monitorar ou acessar sinais individuais em cabos e circuitos de telecomunicações."
+    },
+    {
+      "id": "broadband_router_d",
+      "name": "broadband router d",
+      "file": "assets/icons/broadband_router_d.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Roteador de banda larga, usado para levar uma conexão de internet (DSL/cabo) a uma rede residencial ou de pequeno escritório."
+    },
+    {
+      "id": "bts10200",
+      "name": "bts10200",
+      "file": "assets/icons/bts10200.png",
+      "category": "misc",
+      "curated": false,
+      "description": "BTS 10200: softswitch Cisco (Broadband Telephony Softswitch) usado por operadoras para telefonia VoIP em larga escala."
+    },
+    {
+      "id": "cable_modem",
+      "name": "cable modem",
+      "file": "assets/icons/cable_modem.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cable Modem: equipamento que conecta uma rede local à internet através da rede de TV a cabo (coaxial)."
+    },
+    {
+      "id": "cache_director",
+      "name": "cache director",
+      "file": "assets/icons/cache_director.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Content Engine (Cache Director): dispositivo Cisco que direciona requisições e armazena em cache conteúdo web para acelerar o acesso."
+    },
+    {
+      "id": "callmanager",
+      "name": "callmanager",
+      "file": "assets/icons/callmanager.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CallManager: software/servidor Cisco de gerenciamento de chamadas VoIP (hoje chamado Cisco Unified Communications Manager)."
+    },
+    {
+      "id": "car",
+      "name": "car",
+      "file": "assets/icons/car.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de carro/veículo."
+    },
+    {
+      "id": "carrier_routing_system",
+      "name": "carrier routing system",
+      "file": "assets/icons/carrier_routing_system.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Carrier Routing System (CRS): roteador Cisco de altíssima capacidade, usado por operadoras nos backbones da internet."
+    },
+    {
+      "id": "catalyst_access_gateway",
+      "name": "catalyst access gateway",
+      "file": "assets/icons/catalyst_access_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Catalyst Access Gateway: gateway de voz integrado à linha de switches Cisco Catalyst."
+    },
+    {
+      "id": "cddi_fddi",
+      "name": "cddi-fddi",
+      "file": "assets/icons/cddi_fddi.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CDDI/FDDI: interface de rede FDDI sobre cobre (CDDI) ou fibra (FDDI) — tecnologia legada de rede em anel de alta velocidade."
+    },
+    {
+      "id": "cdm",
+      "name": "cdm",
+      "file": "assets/icons/cdm.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CDM — Content Distribution Manager: servidor Cisco que gerencia a distribuição de conteúdo entre vários Content Engines."
+    },
+    {
+      "id": "centri_firewall",
+      "name": "centri firewall",
+      "file": "assets/icons/centri_firewall.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Centri Firewall: software de firewall legado (Cisco Centri) usado para proteger servidores em rede."
+    },
+    {
+      "id": "cisco_1000",
+      "name": "cisco 1000",
+      "file": "assets/icons/cisco_1000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco 1000: roteador de acesso usado em pequenos escritórios e filiais."
+    },
+    {
+      "id": "cisco_file_engine",
+      "name": "cisco file engine",
+      "file": "assets/icons/cisco_file_engine.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco File Engine: servidor dedicado ao armazenamento e compartilhamento de arquivos em rede."
+    },
+    {
+      "id": "cisco_hub",
+      "name": "cisco hub",
+      "file": "assets/icons/cisco_hub.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Hub de rede fabricado pela Cisco — concentrador Ethernet que repete o sinal para todas as portas."
+    },
+    {
+      "id": "cisco_unified_presence_server",
+      "name": "cisco unified presence server",
+      "file": "assets/icons/cisco_unified_presence_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Servidor que gerencia informações de presença (disponível, ocupado, ausente etc.) em soluções de comunicação unificada."
+    },
+    {
+      "id": "cisco_unityexpress",
+      "name": "cisco unityexpress",
+      "file": "assets/icons/cisco_unityexpress.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco Unity Express: sistema de correio de voz (voicemail) integrado a roteadores Cisco, voltado a pequenas empresas."
+    },
+    {
+      "id": "ciscoca",
+      "name": "ciscoca",
+      "file": "assets/icons/ciscoca.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CiscoCA: autoridade certificadora (Certificate Authority) que emite certificados digitais para segurança da rede."
+    },
+    {
+      "id": "ciscosecurity",
+      "name": "ciscosecurity",
+      "file": "assets/icons/ciscosecurity.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando produtos e serviços de segurança da Cisco."
+    },
+    {
+      "id": "ciscoworks_workstn",
+      "name": "ciscoworks workstn",
+      "file": "assets/icons/ciscoworks_workstn.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Estação de trabalho rodando o software de gerenciamento de rede CiscoWorks."
+    },
+    {
+      "id": "class_4_5_switch",
+      "name": "class 4_5 switch",
+      "file": "assets/icons/class_4_5_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Comutador telefônico de operadora: Classe 4 encaminha tráfego entre centrais (tandem); Classe 5 atende diretamente o assinante final."
+    },
+    {
+      "id": "comm_server",
+      "name": "comm server",
+      "file": "assets/icons/comm_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Communications server: servidor que fornece serviços de comunicação (ex.: acesso remoto, terminal) para a rede."
+    },
+    {
+      "id": "concentrator",
+      "name": "concentrator",
+      "file": "assets/icons/concentrator.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Concentrador genérico: dispositivo que reúne múltiplas conexões em um único enlace."
+    },
+    {
+      "id": "contact_center",
+      "name": "contact center",
+      "file": "assets/icons/contact_center.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone representando uma central de atendimento ao cliente (call/contact center)."
+    },
+    {
+      "id": "content_engine",
+      "name": "content engine",
+      "file": "assets/icons/content_engine.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Content Engine: dispositivo Cisco de cache e entrega de conteúdo web, reduzindo latência e uso de banda WAN."
+    },
+    {
+      "id": "content_switch_11000",
+      "name": "content switch 11000",
+      "file": "assets/icons/content_switch_11000.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Content Service Switch 1100: switch Cisco dedicado a balancear e direcionar tráfego de aplicações web."
+    },
+    {
+      "id": "content_switch_module",
+      "name": "content switch module",
+      "file": "assets/icons/content_switch_module.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Módulo de balanceamento de conteúdo instalado dentro de um switch/chassi Cisco."
+    },
+    {
+      "id": "contentservice_router",
+      "name": "contentservice router",
+      "file": "assets/icons/contentservice_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Content Service Router: roteador especializado em direcionar requisições de conteúdo, por exemplo entre data centers."
+    },
+    {
+      "id": "cs_mars",
+      "name": "cs-mars",
+      "file": "assets/icons/cs_mars.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CS-MARS — Monitoring, Analysis and Response System: appliance Cisco que correlaciona eventos de segurança de vários dispositivos (SIEM)."
+    },
+    {
+      "id": "csm_s",
+      "name": "csm-s",
+      "file": "assets/icons/csm_s.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CSM-S — Content Switching Module: módulo de balanceamento de carga instalado em switches Cisco Catalyst."
+    },
+    {
+      "id": "csu_dsu",
+      "name": "csu dsu",
+      "file": "assets/icons/csu_dsu.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CSU/DSU: equipamento que adapta o sinal entre um roteador e uma linha digital de operadora (ex.: E1/T1)."
+    },
+    {
+      "id": "cte",
+      "name": "cte",
+      "file": "assets/icons/cte.png",
+      "category": "misc",
+      "curated": false,
+      "description": "CTE — Content Transformation Engine: dispositivo Cisco que adapta/transforma conteúdo web para diferentes tipos de dispositivo."
+    },
+    {
+      "id": "cuc",
+      "name": "cuc",
+      "file": "assets/icons/cuc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco Unity Connection (CUC): sistema de mensagens de voz com integração a e-mail e outros canais."
+    },
+    {
+      "id": "detector",
+      "name": "detector",
+      "file": "assets/icons/detector.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de sensor/detector usado em um diagrama de rede."
+    },
+    {
+      "id": "director_class_fibre_channel_director",
+      "name": "director-class fibre channel director",
+      "file": "assets/icons/director_class_fibre_channel_director.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Director-class Fibre Channel director: switch de altíssima capacidade e porta, usado no núcleo de grandes redes de armazenamento (SAN)."
+    },
+    {
+      "id": "directory_server",
+      "name": "directory server",
+      "file": "assets/icons/directory_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Directory Server: servidor que mantém um diretório centralizado de usuários e recursos (ex.: LDAP)."
+    },
+    {
+      "id": "disk_subsystem",
+      "name": "disk subsystem",
+      "file": "assets/icons/disk_subsystem.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Fibre Channel Disk Subsystem: conjunto de discos de armazenamento conectado a uma rede via Fibre Channel."
+    },
+    {
+      "id": "diskette",
+      "name": "diskette",
+      "file": "assets/icons/diskette.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de disquete, representando mídia de armazenamento removível (uso histórico/simbólico)."
+    },
+    {
+      "id": "distributed_director",
+      "name": "distributed director",
+      "file": "assets/icons/distributed_director.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Distributed Director: dispositivo Cisco que direciona usuários para o servidor mais próximo/disponível em implantações geograficamente distribuídas."
+    },
+    {
+      "id": "dot_dot",
+      "name": "dot-dot",
+      "file": "assets/icons/dot_dot.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Símbolo de reticências usado em diagramas para indicar continuidade ou repetição de elementos."
+    },
+    {
+      "id": "dpt",
+      "name": "dpt",
+      "file": "assets/icons/dpt.png",
+      "category": "misc",
+      "curated": false,
+      "description": "DPT — Dynamic Packet Transport: tecnologia Cisco de anel óptico resiliente para transporte de pacotes."
+    },
+    {
+      "id": "dslam",
+      "name": "dslam",
+      "file": "assets/icons/dslam.png",
+      "category": "misc",
+      "curated": false,
+      "description": "DSLAM — Digital Subscriber Line Access Multiplexer: equipamento de operadora que concentra várias linhas DSL de assinantes."
+    },
+    {
+      "id": "dual_mode_ap",
+      "name": "dual mode ap",
+      "file": "assets/icons/dual_mode_ap.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Dual Mode AP: ponto de acesso sem fio capaz de operar em duas bandas ou modos de rádio simultaneamente."
+    },
+    {
+      "id": "dwdm_filter",
+      "name": "dwdm filter",
+      "file": "assets/icons/dwdm_filter.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Filtro DWDM: componente óptico usado em sistemas de multiplexação por comprimento de onda densa, permitindo enviar vários sinais na mesma fibra."
+    },
+    {
+      "id": "end_office",
+      "name": "end office",
+      "file": "assets/icons/end_office.png",
+      "category": "misc",
+      "curated": false,
+      "description": "End Office: central telefônica local que atende diretamente os assinantes de uma região."
+    },
+    {
+      "id": "fax",
+      "name": "fax",
+      "file": "assets/icons/fax.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de aparelho de fax."
+    },
+    {
+      "id": "fc_storage",
+      "name": "fc storage",
+      "file": "assets/icons/fc_storage.png",
+      "category": "misc",
+      "curated": false,
+      "description": "FC Storage: sistema de armazenamento conectado à rede via Fibre Channel."
+    },
+    {
+      "id": "fddi_ring",
+      "name": "fddi ring",
+      "file": "assets/icons/fddi_ring.png",
+      "category": "misc",
+      "curated": false,
+      "description": "FDDI Ring: anel de rede FDDI (Fiber Distributed Data Interface) — tecnologia legada de rede em anel sobre fibra óptica."
+    },
+    {
+      "id": "fibre_channel_fabric_switch",
+      "name": "fibre channel fabric switch",
+      "file": "assets/icons/fibre_channel_fabric_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Fibre Channel Fabric Switch: switch que forma a malha (fabric) de uma rede de armazenamento (SAN)."
+    },
+    {
+      "id": "file_cabinet",
+      "name": "file cabinet",
+      "file": "assets/icons/file_cabinet.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de arquivo/gaveteiro, representando armazenamento físico de documentos."
+    },
+    {
+      "id": "firewall",
+      "name": "firewall",
+      "file": "assets/icons/firewall.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de firewall (parede de tijolos): controla o tráfego permitido entre duas redes com níveis de confiança diferentes."
+    },
+    {
+      "id": "floppy_disk",
+      "name": "floppy disk",
+      "file": "assets/icons/floppy_disk.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de disquete (mídia de armazenamento removível)."
+    },
+    {
+      "id": "front_end_processor",
+      "name": "front end processor",
+      "file": "assets/icons/front_end_processor.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Front End Processor: processador legado que gerenciava a comunicação entre terminais e um mainframe."
+    },
+    {
+      "id": "fwsm",
+      "name": "fwsm",
+      "file": "assets/icons/fwsm.png",
+      "category": "misc",
+      "curated": false,
+      "description": "FWSM — Firewall Services Module: módulo de firewall instalado em um switch/chassi Cisco Catalyst."
+    },
+    {
+      "id": "gatekeeper",
+      "name": "gatekeeper",
+      "file": "assets/icons/gatekeeper.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Gatekeeper: dispositivo que controla admissão e endereçamento em redes de voz/vídeo baseadas no protocolo H.323."
+    },
+    {
+      "id": "general_applicance",
+      "name": "general applicance",
+      "file": "assets/icons/general_applicance.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de appliance de rede — equipamento dedicado a uma função específica."
+    },
+    {
+      "id": "general_processor",
+      "name": "general processor",
+      "file": "assets/icons/general_processor.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de processador/unidade de processamento de rede."
+    },
+    {
+      "id": "generic_building",
+      "name": "generic building",
+      "file": "assets/icons/generic_building.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de prédio."
+    },
+    {
+      "id": "generic_gateway",
+      "name": "generic gateway",
+      "file": "assets/icons/generic_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de gateway — equipamento que interliga redes ou protocolos diferentes."
+    },
+    {
+      "id": "generic_softswitch",
+      "name": "generic softswitch",
+      "file": "assets/icons/generic_softswitch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de softswitch — comutador de telefonia implementado em software."
+    },
+    {
+      "id": "gigabit_switch_router",
+      "name": "gigabit switch router",
+      "file": "assets/icons/gigabit_switch_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Gigabit Switch Router: roteador com portas Gigabit Ethernet de alta capacidade."
+    },
+    {
+      "id": "government_building",
+      "name": "government building",
+      "file": "assets/icons/government_building.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de prédio público/governamental."
+    },
+    {
+      "id": "guard",
+      "name": "guard",
+      "file": "assets/icons/guard.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Guard: appliance Cisco de proteção contra ataques de negação de serviço (DDoS)."
+    },
+    {
+      "id": "h_323",
+      "name": "h.323",
+      "file": "assets/icons/h_323.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone representando o H.323, padrão de protocolo para comunicação de voz e vídeo sobre IP."
+    },
+    {
+      "id": "hand_cell",
+      "name": "hand_cell",
+      "file": "assets/icons/hand_cell.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de mão segurando um telefone celular."
+    },
+    {
+      "id": "handheld",
+      "name": "handheld",
+      "file": "assets/icons/handheld.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Handheld: dispositivo móvel de mão, como um coletor de dados ou assistente pessoal."
+    },
+    {
+      "id": "hootphone",
+      "name": "hootphone",
+      "file": "assets/icons/hootphone.png",
+      "category": "misc",
+      "curated": false,
+      "description": "HootPhone: telefone de intercomunicação direta e permanente ('hoot-n-holler'), usado por exemplo em mesas de operação financeira."
+    },
+    {
+      "id": "host",
+      "name": "host",
+      "file": "assets/icons/host.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de host — qualquer computador conectado à rede."
+    },
+    {
+      "id": "host_generic",
+      "name": "host (generic)",
+      "file": "assets/icons/host_generic.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Variante genérica do ícone de host/computador conectado à rede."
+    },
+    {
+      "id": "hp_mini",
+      "name": "hp mini",
+      "file": "assets/icons/hp_mini.png",
+      "category": "misc",
+      "curated": false,
+      "description": "HP Mini: servidor de pequeno porte fabricado pela HP."
+    },
+    {
+      "id": "iad_router",
+      "name": "iad router",
+      "file": "assets/icons/iad_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IAD — Integrated Access Device: dispositivo que combina voz e dados em um único enlace de acesso."
+    },
+    {
+      "id": "ibm_maniframe",
+      "name": "ibm maniframe",
+      "file": "assets/icons/ibm_maniframe.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IBM Mainframe: computador de grande porte usado para processamento centralizado em larga escala."
+    },
+    {
+      "id": "ibm_mini_as400",
+      "name": "ibm mini (as400)",
+      "file": "assets/icons/ibm_mini_as400.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IBM Mini (AS/400): minicomputador IBM usado para aplicações corporativas de médio/grande porte."
+    },
+    {
+      "id": "ibm_tower",
+      "name": "ibm tower",
+      "file": "assets/icons/ibm_tower.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IBM Tower: servidor IBM em formato torre."
+    },
+    {
+      "id": "icm",
+      "name": "icm",
+      "file": "assets/icons/icm.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ICM — Intelligent Contact Management: sistema Cisco de roteamento inteligente de chamadas em centrais de atendimento."
+    },
+    {
+      "id": "ics",
+      "name": "ics",
+      "file": "assets/icons/ics.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ICS — Integrated Communications System: sistema integrado de comunicações Cisco voltado a pequenas empresas."
+    },
+    {
+      "id": "intelliswitch_stack",
+      "name": "intelliswitch stack",
+      "file": "assets/icons/intelliswitch_stack.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IntelliSwitch Stack: pilha de switches empilháveis da série Cisco IntelliSwitch."
+    },
+    {
+      "id": "ios_firewall",
+      "name": "ios firewall",
+      "file": "assets/icons/ios_firewall.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IOS Firewall: recurso de firewall embutido diretamente no software Cisco IOS de um roteador."
+    },
+    {
+      "id": "ios_slb",
+      "name": "ios slb",
+      "file": "assets/icons/ios_slb.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IOS SLB — Server Load Balancing: recurso de balanceamento de carga entre servidores, embutido no Cisco IOS."
+    },
+    {
+      "id": "ip",
+      "name": "ip",
+      "file": "assets/icons/ip.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando o protocolo IP."
+    },
+    {
+      "id": "ip_communicator",
+      "name": "ip communicator",
+      "file": "assets/icons/ip_communicator.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IP Communicator: softphone Cisco — um telefone IP em forma de aplicativo, rodando no computador."
+    },
+    {
+      "id": "ip_dsl",
+      "name": "ip dsl",
+      "file": "assets/icons/ip_dsl.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IP DSL: equipamento que fornece acesso IP sobre uma linha DSL."
+    },
+    {
+      "id": "ip_telephony_router",
+      "name": "ip telephony router",
+      "file": "assets/icons/ip_telephony_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IP Telephony Router: roteador com recursos integrados de telefonia IP."
+    },
+    {
+      "id": "iptc",
+      "name": "iptc",
+      "file": "assets/icons/iptc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IPTC: controlador de telefonia IP."
+    },
+    {
+      "id": "iptv_broadcast_server",
+      "name": "iptv broadcast server",
+      "file": "assets/icons/iptv_broadcast_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IPTV broadcast server: servidor que transmite conteúdo de vídeo (TV) sobre uma rede IP."
+    },
+    {
+      "id": "iptv_content_manager",
+      "name": "iptv content manager",
+      "file": "assets/icons/iptv_content_manager.png",
+      "category": "misc",
+      "curated": false,
+      "description": "IPTV content manager: servidor que gerencia o conteúdo distribuído em uma rede de IPTV."
+    },
+    {
+      "id": "iscsi_router",
+      "name": "iscsi router",
+      "file": "assets/icons/iscsi_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "iSCSI router: roteador/gateway que conecta dispositivos de armazenamento iSCSI a uma rede IP."
+    },
+    {
+      "id": "isdn_switch",
+      "name": "isdn switch",
+      "file": "assets/icons/isdn_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ISDN switch: comutador de uma rede ISDN (Integrated Services Digital Network), tecnologia digital legada de telefonia/dados."
+    },
+    {
+      "id": "itp",
+      "name": "itp",
+      "file": "assets/icons/itp.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ITP: plataforma Cisco de sinalização SS7 sobre IP, usada por operadoras de telefonia."
+    },
+    {
+      "id": "jbod",
+      "name": "jbod",
+      "file": "assets/icons/jbod.png",
+      "category": "misc",
+      "curated": false,
+      "description": "JBOD — Just a Bunch Of Disks: conjunto simples de discos de armazenamento, sem redundância RAID."
+    },
+    {
+      "id": "key",
+      "name": "key",
+      "file": "assets/icons/key.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de chave, representando segurança ou criptografia."
+    },
+    {
+      "id": "keys",
+      "name": "keys",
+      "file": "assets/icons/keys.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de chaves (variação do símbolo de segurança/acesso)."
+    },
+    {
+      "id": "lan2lan",
+      "name": "lan2lan",
+      "file": "assets/icons/lan2lan.png",
+      "category": "misc",
+      "curated": false,
+      "description": "LAN to LAN: ícone representando uma conexão direta entre duas redes locais."
+    },
+    {
+      "id": "layer_3_switch",
+      "name": "layer 3 switch",
+      "file": "assets/icons/layer_3_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Layer 3 Switch: switch com capacidade de rotear tráfego entre VLANs/redes diferentes (Camada 3)."
+    },
+    {
+      "id": "lightweight_ap",
+      "name": "lightweight ap",
+      "file": "assets/icons/lightweight_ap.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Lightweight AccessPoint: ponto de acesso 'leve', que depende de um controlador wireless central para funcionar plenamente."
+    },
+    {
+      "id": "lock",
+      "name": "lock",
+      "file": "assets/icons/lock.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de cadeado, representando segurança ou bloqueio de acesso."
+    },
+    {
+      "id": "longreach_cpe",
+      "name": "longreach cpe",
+      "file": "assets/icons/longreach_cpe.png",
+      "category": "misc",
+      "curated": false,
+      "description": "LongReach CPE: equipamento de cliente (Customer Premises Equipment) para acesso de longa distância."
+    },
+    {
+      "id": "mac_woman",
+      "name": "mac woman",
+      "file": "assets/icons/mac_woman.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa usando um computador Macintosh."
+    },
+    {
+      "id": "macintosh",
+      "name": "macintosh",
+      "file": "assets/icons/macintosh.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de computador Macintosh (Apple)."
+    },
+    {
+      "id": "man_woman",
+      "name": "man woman",
+      "file": "assets/icons/man_woman.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando duas pessoas/usuários."
+    },
+    {
+      "id": "mas_gateway",
+      "name": "mas gateway",
+      "file": "assets/icons/mas_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MAS Gateway (Media Application Server): gateway de servidor de aplicações de mídia."
+    },
+    {
+      "id": "mau",
+      "name": "mau",
+      "file": "assets/icons/mau.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MAU — Multistation Access Unit: unidade central usada em redes Token Ring para conectar múltiplas estações."
+    },
+    {
+      "id": "mcu",
+      "name": "mcu",
+      "file": "assets/icons/mcu.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MCU — Multipoint Control Unit: equipamento que gerencia videoconferências com múltiplos participantes simultâneos."
+    },
+    {
+      "id": "mdu",
+      "name": "mdu",
+      "file": "assets/icons/mdu.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MDU — Multi-Dwelling Unit: equipamento de acesso de rede voltado a prédios residenciais com múltiplas unidades."
+    },
+    {
+      "id": "me1100",
+      "name": "me1100",
+      "file": "assets/icons/me1100.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ME 1100: equipamento da linha Cisco Metro Ethernet, usado por operadoras em redes metropolitanas."
+    },
+    {
+      "id": "meetingplace",
+      "name": "meetingplace",
+      "file": "assets/icons/meetingplace.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco MeetingPlace: sistema Cisco de conferência de voz, vídeo e web corporativa."
+    },
+    {
+      "id": "mesh_ap",
+      "name": "mesh ap",
+      "file": "assets/icons/mesh_ap.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Mesh AP: ponto de acesso sem fio que participa de uma rede em malha, retransmitindo sinal entre outros APs."
+    },
+    {
+      "id": "metro1500",
+      "name": "metro1500",
+      "file": "assets/icons/metro1500.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Metro 1500: equipamento óptico Cisco da série ONS 15xxx voltado a redes metropolitanas."
+    },
+    {
+      "id": "mgx_8000_multiservice_switch",
+      "name": "mgx 8000 multiservice switch",
+      "file": "assets/icons/mgx_8000_multiservice_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MGX 8000 Multiservice Switch: switch Cisco multisserviço (ATM/Frame Relay/voz), usado por operadoras."
+    },
+    {
+      "id": "microphone",
+      "name": "microphone",
+      "file": "assets/icons/microphone.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de microfone, representando captação de áudio."
+    },
+    {
+      "id": "microwebserver",
+      "name": "microwebserver",
+      "file": "assets/icons/microwebserver.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MicroWebserver: servidor web de pequeno porte ou simplificado."
+    },
+    {
+      "id": "mini_vax",
+      "name": "mini vax",
+      "file": "assets/icons/mini_vax.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Mini VAX: minicomputador legado da linha VAX (Digital Equipment Corporation)."
+    },
+    {
+      "id": "mobile_access_ip_phone",
+      "name": "mobile access ip phone",
+      "file": "assets/icons/mobile_access_ip_phone.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Mobile Access IP Phone: telefone IP projetado para uso móvel/sem fio."
+    },
+    {
+      "id": "mobile_access_router",
+      "name": "mobile access router",
+      "file": "assets/icons/mobile_access_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Mobile Access Router: roteador projetado para fornecer acesso de rede em ambientes móveis."
+    },
+    {
+      "id": "modem",
+      "name": "modem",
+      "file": "assets/icons/modem.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Modem: equipamento que modula/demodula sinal para permitir a transmissão de dados, por exemplo sobre linha telefônica."
+    },
+    {
+      "id": "moh_server",
+      "name": "moh server",
+      "file": "assets/icons/moh_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MoH server (Music on Hold): servidor que fornece música ou mensagem de espera durante uma chamada telefônica."
+    },
+    {
+      "id": "multi_fabric_server_switch",
+      "name": "multi-fabric server switch",
+      "file": "assets/icons/multi_fabric_server_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Multi-Fabric Switch Server: switch/servidor que interliga múltiplas malhas (fabrics) de rede."
+    },
+    {
+      "id": "multilayer_remote_switch",
+      "name": "multilayer remote switch",
+      "file": "assets/icons/multilayer_remote_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Multilayer Remote Switch: switch multicamada implantado remotamente, fora do núcleo da rede."
+    },
+    {
+      "id": "multiswdevice",
+      "name": "multiswdevice",
+      "file": "assets/icons/multiswdevice.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MultiSwitch Device: dispositivo que integra múltiplas funções de comutação em um único equipamento."
+    },
+    {
+      "id": "mux",
+      "name": "mux",
+      "file": "assets/icons/mux.png",
+      "category": "misc",
+      "curated": false,
+      "description": "MUX — Multiplexador: equipamento que combina vários sinais em um único canal de transmissão."
+    },
+    {
+      "id": "nac_appliance",
+      "name": "nac appliance",
+      "file": "assets/icons/nac_appliance.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NAC appliance (Network Admission Control): verifica se um dispositivo cumpre as políticas de segurança antes de liberar acesso à rede."
+    },
+    {
+      "id": "netflow_router",
+      "name": "netflow router",
+      "file": "assets/icons/netflow_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NetFlow router: roteador com o recurso NetFlow ativado, que coleta estatísticas detalhadas sobre o tráfego que passa por ele."
+    },
+    {
+      "id": "netranger",
+      "name": "netranger",
+      "file": "assets/icons/netranger.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NetRanger: sistema Cisco legado de detecção de intrusão (IDS)."
+    },
+    {
+      "id": "netsonar",
+      "name": "netsonar",
+      "file": "assets/icons/netsonar.png",
+      "category": "misc",
+      "curated": false,
+      "description": "NetSonar: ferramenta Cisco legada de varredura e análise de vulnerabilidades de rede."
+    },
+    {
+      "id": "network_management",
+      "name": "network management",
+      "file": "assets/icons/network_management.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone representando uma estação ou sistema de gerenciamento de rede."
+    },
+    {
+      "id": "octel",
+      "name": "octel",
+      "file": "assets/icons/octel.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Octel: sistema legado de correio de voz, tecnologia incorporada a integrações de telefonia da época."
+    },
+    {
+      "id": "ons15500",
+      "name": "ons15500",
+      "file": "assets/icons/ons15500.png",
+      "category": "misc",
+      "curated": false,
+      "description": "ONS15500: plataforma óptica Cisco da família ONS 15xxx, usada em redes de transporte metropolitano."
+    },
+    {
+      "id": "optical_amplifier",
+      "name": "optical amplifier",
+      "file": "assets/icons/optical_amplifier.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Optical Amplifier: equipamento que amplifica o sinal óptico dentro da fibra, sem convertê-lo para elétrico."
+    },
+    {
+      "id": "optical_services_router",
+      "name": "optical services router",
+      "file": "assets/icons/optical_services_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Optical Services Router: roteador com interfaces ópticas integradas."
+    },
+    {
+      "id": "optical_transport",
+      "name": "optical transport",
+      "file": "assets/icons/optical_transport.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando equipamento de transporte óptico."
+    },
+    {
+      "id": "pad",
+      "name": "pad",
+      "file": "assets/icons/pad.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PAD — Packet Assembler/Disassembler: equipamento legado que monta e desmonta pacotes em redes X.25."
+    },
+    {
+      "id": "pad_x_28",
+      "name": "pad x.28",
+      "file": "assets/icons/pad_x_28.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PAD X.28: variante do PAD que segue a interface X.28, usada por terminais assíncronos em redes X.25."
+    },
+    {
+      "id": "page_icon",
+      "name": "page icon",
+      "file": "assets/icons/page_icon.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando uma página ou documento."
+    },
+    {
+      "id": "pbx",
+      "name": "pbx",
+      "file": "assets/icons/pbx.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PBX — Private Branch Exchange: central telefônica privada que gerencia chamadas internas e externas de uma empresa."
+    },
+    {
+      "id": "pbx_switch",
+      "name": "pbx switch",
+      "file": "assets/icons/pbx_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Comutador de uma central telefônica privada (PBX)."
+    },
+    {
+      "id": "pc_adapter_card",
+      "name": "pc adapter card",
+      "file": "assets/icons/pc_adapter_card.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PC Adapter Card: placa adaptadora de rede instalada dentro de um computador."
+    },
+    {
+      "id": "pc_man",
+      "name": "pc man",
+      "file": "assets/icons/pc_man.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de pessoa usando um computador (PC)."
+    },
+    {
+      "id": "pc_router_card",
+      "name": "pc router card",
+      "file": "assets/icons/pc_router_card.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PC Router Card: placa que adiciona função de roteamento a um computador comum."
+    },
+    {
+      "id": "pc_software",
+      "name": "pc software",
+      "file": "assets/icons/pc_software.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone representando um software rodando em um computador (PC)."
+    },
+    {
+      "id": "pc_video",
+      "name": "pc_video",
+      "file": "assets/icons/pc_video.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PC Video: ícone de computador com recurso de vídeo/webcam."
+    },
+    {
+      "id": "pda",
+      "name": "pda",
+      "file": "assets/icons/pda.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PDA — Personal Digital Assistant: assistente pessoal digital, dispositivo móvel legado, antecessor dos smartphones."
+    },
+    {
+      "id": "phone",
+      "name": "phone",
+      "file": "assets/icons/phone.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de telefone."
+    },
+    {
+      "id": "phone_fax",
+      "name": "phone fax",
+      "file": "assets/icons/phone_fax.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone combinado representando telefone e fax no mesmo aparelho."
+    },
+    {
+      "id": "pipe",
+      "name": "pipe",
+      "file": "assets/icons/pipe.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de 'cano/tubo', usado para representar um enlace de dados de alta capacidade."
+    },
+    {
+      "id": "pix",
+      "name": "pix",
+      "file": "assets/icons/pix.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PIX Firewall: linha de firewalls dedicados da Cisco (Private Internet eXchange), predecessora da linha ASA."
+    },
+    {
+      "id": "pmc",
+      "name": "pmc",
+      "file": "assets/icons/pmc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PMC — PCI Mezzanine Card: placa de expansão modular usada em equipamentos de rede Cisco."
+    },
+    {
+      "id": "programmable_sw",
+      "name": "programmable sw",
+      "file": "assets/icons/programmable_sw.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Programmable Switch: switch cuja lógica de encaminhamento pode ser programada/customizada."
+    },
+    {
+      "id": "protocol_translator",
+      "name": "protocol translator",
+      "file": "assets/icons/protocol_translator.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Protocol Translator: dispositivo que converte um protocolo de rede em outro."
+    },
+    {
+      "id": "pxf",
+      "name": "pxf",
+      "file": "assets/icons/pxf.png",
+      "category": "misc",
+      "curated": false,
+      "description": "PXF — Parallel eXpress Forwarding: processador de encaminhamento paralelo usado em roteadores Cisco de alto desempenho."
+    },
+    {
+      "id": "radio_tower",
+      "name": "radio tower",
+      "file": "assets/icons/radio_tower.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Radio Tower: torre de transmissão de rádio/telecomunicações."
+    },
+    {
+      "id": "ratemux",
+      "name": "ratemux",
+      "file": "assets/icons/ratemux.png",
+      "category": "misc",
+      "curated": false,
+      "description": "RateMUX: multiplexador que ajusta a taxa de transmissão de múltiplos sinais combinados."
+    },
+    {
+      "id": "relational_database",
+      "name": "relational database",
+      "file": "assets/icons/relational_database.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone representando um banco de dados relacional."
+    },
+    {
+      "id": "repeater",
+      "name": "repeater",
+      "file": "assets/icons/repeater.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Repeater: equipamento de Camada 1 que regenera/amplifica o sinal de rede para estender seu alcance."
+    },
+    {
+      "id": "router_in_bldg",
+      "name": "router in bldg",
+      "file": "assets/icons/router_in_bldg.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Router in building: ícone de roteador posicionado dentro de um prédio, em um contexto de topologia física."
+    },
+    {
+      "id": "router_w_firewall",
+      "name": "router w firewall",
+      "file": "assets/icons/router_w_firewall.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Router with Firewall: roteador com recurso de firewall integrado."
+    },
+    {
+      "id": "router_w_silicon_switch",
+      "name": "router w silicon switch",
+      "file": "assets/icons/router_w_silicon_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Router with Silicon Switch: roteador com um switch de comutação implementado em hardware (silicon switching) integrado."
+    },
+    {
+      "id": "rps",
+      "name": "rps",
+      "file": "assets/icons/rps.png",
+      "category": "misc",
+      "curated": false,
+      "description": "RPS — Redundant Power Supply: fonte de alimentação redundante para equipamentos de rede."
+    },
+    {
+      "id": "running_man",
+      "name": "running man",
+      "file": "assets/icons/running_man.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa correndo, usado simbolicamente (ex.: usuário em trânsito, urgência)."
+    },
+    {
+      "id": "satellite",
+      "name": "satellite",
+      "file": "assets/icons/satellite.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de satélite de comunicação."
+    },
+    {
+      "id": "satellite_dish",
+      "name": "satellite dish",
+      "file": "assets/icons/satellite_dish.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Antena parabólica usada para comunicação via satélite."
+    },
+    {
+      "id": "sc2200_signalling_controller",
+      "name": "sc2200 signalling controller",
+      "file": "assets/icons/sc2200_signalling_controller.png",
+      "category": "misc",
+      "curated": false,
+      "description": "SC2200 Signalling Controller: controlador de sinalização de telefonia Cisco, parte de uma solução de softswitch."
+    },
+    {
+      "id": "sc2200_vsc3000host",
+      "name": "sc2200_vsc3000host",
+      "file": "assets/icons/sc2200_vsc3000host.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Servidor hospedeiro do controlador de sinalização SC2200/VSC3000."
+    },
+    {
+      "id": "scanner",
+      "name": "scanner",
+      "file": "assets/icons/scanner.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de scanner de documentos."
+    },
+    {
+      "id": "server_switch",
+      "name": "server switch",
+      "file": "assets/icons/server_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Server Switch: switch dedicado à interconexão de servidores dentro de um data center."
+    },
+    {
+      "id": "server_w_pc_router",
+      "name": "server w pc router",
+      "file": "assets/icons/server_w_pc_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Server with PC Router: servidor que também exerce função de roteamento, via software."
+    },
+    {
+      "id": "service_control",
+      "name": "service control",
+      "file": "assets/icons/service_control.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Service Control: dispositivo/módulo que aplica políticas sobre serviços de rede, como QoS ou cobrança."
+    },
+    {
+      "id": "sip_proxy_server",
+      "name": "sip proxy server",
+      "file": "assets/icons/sip_proxy_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "SIP Proxy server: servidor que encaminha e gerencia sessões de sinalização SIP (voz/vídeo sobre IP)."
+    },
+    {
+      "id": "sitting_woman",
+      "name": "sitting woman",
+      "file": "assets/icons/sitting_woman.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa sentada."
+    },
+    {
+      "id": "small_business",
+      "name": "small business",
+      "file": "assets/icons/small_business.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando uma pequena empresa."
+    },
+    {
+      "id": "small_hub",
+      "name": "small hub",
+      "file": "assets/icons/small_hub.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Hub de rede de pequeno porte."
+    },
+    {
+      "id": "softphone",
+      "name": "softphone",
+      "file": "assets/icons/softphone.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Softphone: telefone implementado como aplicativo de software, sem aparelho físico dedicado."
+    },
+    {
+      "id": "softswitch_pgw_mgc",
+      "name": "softswitch_pgw_mgc",
+      "file": "assets/icons/softswitch_pgw_mgc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Softswitch PGW/MGC: controlador de gateway de mídia (Media Gateway Controller) dentro de uma arquitetura de softswitch."
+    },
+    {
+      "id": "speaker",
+      "name": "speaker",
+      "file": "assets/icons/speaker.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de alto-falante, representando saída de áudio."
+    },
+    {
+      "id": "ssc",
+      "name": "ssc",
+      "file": "assets/icons/ssc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "SSC: placa de suporte/seleção de serviços usada em equipamentos Cisco."
+    },
+    {
+      "id": "ssl_terminator",
+      "name": "ssl terminator",
+      "file": "assets/icons/ssl_terminator.png",
+      "category": "misc",
+      "curated": false,
+      "description": "SSL terminator: dispositivo que processa (decifra/cifra) conexões SSL/TLS antes de repassar o tráfego aos servidores."
+    },
+    {
+      "id": "standing_man_icon",
+      "name": "standing man icon",
+      "file": "assets/icons/standing_man_icon.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa em pé (homem)."
+    },
+    {
+      "id": "standing_woman",
+      "name": "standing woman",
+      "file": "assets/icons/standing_woman.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de pessoa em pé (mulher)."
+    },
+    {
+      "id": "stb",
+      "name": "stb",
+      "file": "assets/icons/stb.png",
+      "category": "misc",
+      "curated": false,
+      "description": "STB — set-top box: decodificador de TV/IPTV."
+    },
+    {
+      "id": "storage_router",
+      "name": "storage router",
+      "file": "assets/icons/storage_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Storage Router: roteador dedicado a interconectar redes de armazenamento, por exemplo SCSI ou Fibre Channel sobre IP."
+    },
+    {
+      "id": "stp",
+      "name": "stp",
+      "file": "assets/icons/stp.png",
+      "category": "misc",
+      "curated": false,
+      "description": "STP — Spanning Tree Protocol: protocolo que evita loops em redes com switches redundantes, bloqueando caminhos duplicados."
+    },
+    {
+      "id": "streamer",
+      "name": "streamer",
+      "file": "assets/icons/streamer.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Streamer: servidor/dispositivo que transmite (streaming) conteúdo de áudio ou vídeo pela rede."
+    },
+    {
+      "id": "sun_workstation",
+      "name": "sun workstation",
+      "file": "assets/icons/sun_workstation.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Estação de trabalho fabricada pela Sun Microsystems."
+    },
+    {
+      "id": "svx",
+      "name": "svx",
+      "file": "assets/icons/svx.png",
+      "category": "misc",
+      "curated": false,
+      "description": "SVX: servidor de voz/comunicações Cisco, intercambiável com o papel de um End Office."
+    },
+    {
+      "id": "sw_based_server",
+      "name": "sw-based server",
+      "file": "assets/icons/sw_based_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Software based server: servidor cuja função é implementada em software, rodando sobre hardware genérico."
+    },
+    {
+      "id": "system_controller",
+      "name": "system controller",
+      "file": "assets/icons/system_controller.png",
+      "category": "misc",
+      "curated": false,
+      "description": "System Controller: controlador central de um sistema ou chassi de rede."
+    },
+    {
+      "id": "tape_array",
+      "name": "tape array",
+      "file": "assets/icons/tape_array.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Tape array: conjunto de unidades de fita magnética, usado para backup e arquivamento de dados."
+    },
+    {
+      "id": "tdm_router",
+      "name": "tdm router",
+      "file": "assets/icons/tdm_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "TDM router: roteador com interfaces TDM (Time-Division Multiplexing), usado para tráfego de voz/dados multiplexado por tempo."
+    },
+    {
+      "id": "telecommuter_house",
+      "name": "telecommuter house",
+      "file": "assets/icons/telecommuter_house.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de casa representando um trabalhador remoto (home office)."
+    },
+    {
+      "id": "telecommuter_house_rtr",
+      "name": "telecommuter house rtr",
+      "file": "assets/icons/telecommuter_house_rtr.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de casa com roteador, representando a conexão de um home office à rede corporativa."
+    },
+    {
+      "id": "telecomuter_icon",
+      "name": "telecomuter icon",
+      "file": "assets/icons/telecomuter_icon.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando trabalho remoto/teletrabalho."
+    },
+    {
+      "id": "telephone_poles",
+      "name": "telephone poles",
+      "file": "assets/icons/telephone_poles.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Postes de telefonia, representando a infraestrutura física de cabeamento externo."
+    },
+    {
+      "id": "terminal",
+      "name": "terminal",
+      "file": "assets/icons/terminal.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Terminal: dispositivo de entrada/saída conectado a um host, sem processamento próprio (ex.: terminal burro)."
+    },
+    {
+      "id": "token_ring",
+      "name": "token ring",
+      "file": "assets/icons/token_ring.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Token Ring: tecnologia de rede legada em anel, na qual um 'token' circula controlando o direito de transmissão de cada estação."
+    },
+    {
+      "id": "transpath",
+      "name": "transpath",
+      "file": "assets/icons/transpath.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Transpath: plataforma de comutação de voz usada por operadoras."
+    },
+    {
+      "id": "truck",
+      "name": "truck",
+      "file": "assets/icons/truck.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de caminhão, representando veículo de serviço/logística."
+    },
+    {
+      "id": "turret",
+      "name": "turret",
+      "file": "assets/icons/turret.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Turret: console de comunicações com múltiplas linhas dedicadas, usado em ambientes de negociação financeira (trading floor)."
+    },
+    {
+      "id": "tv",
+      "name": "tv",
+      "file": "assets/icons/tv.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de televisão."
+    },
+    {
+      "id": "ubr910",
+      "name": "ubr910",
+      "file": "assets/icons/ubr910.png",
+      "category": "misc",
+      "curated": false,
+      "description": "uBR910 — Universal Broadband Router: roteador/modem a cabo Cisco para acesso residencial."
+    },
+    {
+      "id": "umg_series",
+      "name": "umg series",
+      "file": "assets/icons/umg_series.png",
+      "category": "misc",
+      "curated": false,
+      "description": "uMG series: gateway de mídia universal Cisco, converte tráfego de voz entre redes diferentes (ex.: TDM e IP)."
+    },
+    {
+      "id": "unity_server",
+      "name": "unity server",
+      "file": "assets/icons/unity_server.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Cisco Unity server: plataforma de mensagens unificadas (voicemail, e-mail, fax) em um único sistema."
+    },
+    {
+      "id": "university",
+      "name": "university",
+      "file": "assets/icons/university.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de prédio universitário/instituição de ensino."
+    },
+    {
+      "id": "unversal_gateway",
+      "name": "unversal gateway",
+      "file": "assets/icons/unversal_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Universal Gateway: gateway genérico que interliga diferentes tipos de rede ou protocolo."
+    },
+    {
+      "id": "upc",
+      "name": "upc",
+      "file": "assets/icons/upc.png",
+      "category": "misc",
+      "curated": false,
+      "description": "UPC: ícone de dispositivo portátil (laptop) com função de controle/gerenciamento."
+    },
+    {
+      "id": "ups",
+      "name": "ups",
+      "file": "assets/icons/ups.png",
+      "category": "misc",
+      "curated": false,
+      "description": "UPS — Uninterruptible Power Supply (nobreak): fornece energia de backup para equipamentos em caso de falta de energia."
+    },
+    {
+      "id": "vault",
+      "name": "vault",
+      "file": "assets/icons/vault.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de cofre, representando armazenamento seguro de dados."
+    },
+    {
+      "id": "video_camera",
+      "name": "video camera",
+      "file": "assets/icons/video_camera.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Câmera de vídeo, usada por exemplo em videoconferência ou vigilância."
+    },
+    {
+      "id": "vip",
+      "name": "vip",
+      "file": "assets/icons/vip.png",
+      "category": "misc",
+      "curated": false,
+      "description": "VIP — Versatile Interface Processor: processador de interface usado em roteadores Cisco de alto desempenho para descarregar tarefas de encaminhamento."
+    },
+    {
+      "id": "virtual_layer_switch",
+      "name": "virtual layer switch",
+      "file": "assets/icons/virtual_layer_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Virtual Layer Switch: switch virtual que opera em uma camada de abstração sobre o hardware físico."
+    },
+    {
+      "id": "voice_atm_switch",
+      "name": "voice atm switch",
+      "file": "assets/icons/voice_atm_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Voice ATM switch: comutador ATM com suporte a tráfego de voz."
+    },
+    {
+      "id": "voice_gateway",
+      "name": "voice gateway",
+      "file": "assets/icons/voice_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Voice Gateway: gateway que converte chamadas entre uma rede de telefonia tradicional e uma rede IP."
+    },
+    {
+      "id": "voice_router",
+      "name": "voice router",
+      "file": "assets/icons/voice_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Voice router: roteador com interfaces e recursos voltados para tráfego de voz."
+    },
+    {
+      "id": "voice_switch",
+      "name": "voice switch",
+      "file": "assets/icons/voice_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Voice switch: comutador dedicado a tráfego de voz."
+    },
+    {
+      "id": "vpn_gateway",
+      "name": "vpn gateway",
+      "file": "assets/icons/vpn_gateway.png",
+      "category": "misc",
+      "curated": false,
+      "description": "VPN Gateway: equipamento que estabelece e termina conexões VPN entre redes."
+    },
+    {
+      "id": "vsc_3000_virtual_switch_contrlr",
+      "name": "vsc 3000 virtual switch contrlr",
+      "file": "assets/icons/vsc_3000_virtual_switch_contrlr.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Virtual switch controller (VSC 3000): controlador que gerencia um switch virtual/distribuído."
+    },
+    {
+      "id": "wae",
+      "name": "wae",
+      "file": "assets/icons/wae.png",
+      "category": "misc",
+      "curated": false,
+      "description": "WAE — Wide Area Application Engine: dispositivo Cisco de otimização de aplicações e dados em redes WAN."
+    },
+    {
+      "id": "wavelength_router",
+      "name": "wavelength router",
+      "file": "assets/icons/wavelength_router.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Wavelength router: roteador óptico que direciona sinais por comprimento de onda, usado em redes DWDM."
+    },
+    {
+      "id": "web_browser",
+      "name": "web browser",
+      "file": "assets/icons/web_browser.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone de navegador de internet."
+    },
+    {
+      "id": "web_cluster",
+      "name": "web cluster",
+      "file": "assets/icons/web_cluster.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Web cluster: conjunto de servidores web trabalhando de forma agrupada para dar suporte a uma mesma aplicação."
+    },
+    {
+      "id": "wi_fi_tag",
+      "name": "wi-fi tag",
+      "file": "assets/icons/wi_fi_tag.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Wi-Fi Tag: etiqueta rastreável via rede Wi-Fi, usada para localização de ativos."
+    },
+    {
+      "id": "wireless",
+      "name": "wireless",
+      "file": "assets/icons/wireless.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico representando conectividade sem fio."
+    },
+    {
+      "id": "wireless_location_appliance",
+      "name": "wireless location appliance",
+      "file": "assets/icons/wireless_location_appliance.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Wireless Location Appliance: dispositivo Cisco que calcula a localização de equipamentos dentro de uma rede sem fio."
+    },
+    {
+      "id": "wireless_transport",
+      "name": "wireless transport",
+      "file": "assets/icons/wireless_transport.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Ícone genérico de transporte de dados sem fio, como um enlace de backhaul wireless."
+    },
+    {
+      "id": "wism",
+      "name": "wism",
+      "file": "assets/icons/wism.png",
+      "category": "misc",
+      "curated": false,
+      "description": "WiSM — Wireless Services Module: módulo controlador de rede sem fio instalado em um switch Catalyst."
+    },
+    {
+      "id": "wlan_controller",
+      "name": "wlan controller",
+      "file": "assets/icons/wlan_controller.png",
+      "category": "misc",
+      "curated": false,
+      "description": "WLAN controller: controlador central que gerencia múltiplos pontos de acesso sem fio (arquitetura de wireless unificado)."
+    },
+    {
+      "id": "workgroup_director",
+      "name": "workgroup director",
+      "file": "assets/icons/workgroup_director.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Workgroup Director: dispositivo que direciona/gerencia o tráfego de um grupo de trabalho na rede."
+    },
+    {
+      "id": "workgroup_switch",
+      "name": "workgroup switch",
+      "file": "assets/icons/workgroup_switch.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Workgroup switch: switch dedicado a conectar os dispositivos de um grupo de trabalho específico."
+    },
+    {
+      "id": "workstation",
+      "name": "workstation",
+      "file": "assets/icons/workstation.png",
+      "category": "misc",
+      "curated": false,
+      "description": "Workstation: estação de trabalho — computador de uso profissional conectado à rede."
+    },
+    {
+      "id": "asr_1000_series",
+      "name": "ASR 1000 Series",
+      "file": "assets/icons/asr_1000_series.png",
+      "category": "routing_l3",
+      "curated": true,
+      "glossary_name": "ASR (Aggregation Services Router)",
+      "function": "Roteador de grande porte, usado por provedores de internet (ISPs) e em backbones corporativos de alta capacidade.",
+      "when_to_use": "Topologias de operadora/backbone.",
+      "description": "Roteador de grande porte, usado por provedores de internet (ISPs) e em backbones corporativos de alta capacidade."
+    },
+    {
+      "id": "service_router",
+      "name": "Service Router",
+      "file": "assets/icons/service_router.png",
+      "category": "routing_l3",
+      "curated": true,
+      "glossary_name": "ISR (Integrated Services Router)",
+      "function": "Linha de roteadores Cisco voltada à borda corporativa/filiais, integrando roteamento, segurança, voz e QoS em um único chassi.",
+      "when_to_use": "Fronteira entre a rede local da empresa e o link com o provedor de internet.",
+      "description": "Linha de roteadores Cisco voltada à borda corporativa/filiais, integrando roteamento, segurança, voz e QoS em um único chassi."
+    },
+    {
+      "id": "route_switch_processor",
+      "name": "route switch processor",
+      "file": "assets/icons/route_switch_processor.png",
+      "category": "routing_l3",
+      "curated": true,
+      "glossary_name": "Route Switch Processor",
+      "function": "Não é um equipamento completo — é um módulo/placa que adiciona capacidade de roteamento a um switch de Camada 2, transformando-o em switch multicamada.",
+      "when_to_use": "Diagramas de data center e redes de campus de grande porte.",
+      "description": "Não é um equipamento completo — é um módulo/placa que adiciona capacidade de roteamento a um switch de Camada 2, transformando-o em switch multicamada."
+    },
+    {
+      "id": "router",
+      "name": "router",
+      "file": "assets/icons/router.png",
+      "category": "routing_l3",
+      "curated": true,
+      "glossary_name": "Router",
+      "function": "Opera na Camada 3 (Rede) do modelo OSI. Decide o melhor caminho para encaminhar pacotes entre redes diferentes, com base em endereços IP e em uma tabela de roteamento.",
+      "when_to_use": "Ponto de saida de uma LAN para a WAN/Internet, ou interligacao entre duas sub-redes diferentes.",
+      "description": "Opera na Camada 3 (Rede) do modelo OSI. Decide o melhor caminho para encaminhar pacotes entre redes diferentes, com base em endereços IP e em uma tabela de roteamento."
+    },
+    {
+      "id": "wireless_router",
+      "name": "wireless router",
+      "file": "assets/icons/wireless_router.png",
+      "category": "routing_l3",
+      "curated": true,
+      "glossary_name": "Wireless Router",
+      "function": "Combina, em um único equipamento, roteador + switch + access point — típico de redes domésticas e pequenos escritórios (SOHO).",
+      "when_to_use": "Substitui tres equipamentos separados quando a escala da rede nao justifica te-los individualmente.",
+      "description": "Combina, em um único equipamento, roteador + switch + access point — típico de redes domésticas e pequenos escritórios (SOHO)."
+    },
+    {
+      "id": "network_security",
+      "name": "Network security",
+      "file": "assets/icons/network_security.png",
+      "category": "security",
+      "curated": true,
+      "glossary_name": "IPS/IDS",
+      "function": "IDS detecta e alerta sobre tráfego suspeito; IPS detecta e bloqueia automaticamente.",
+      "when_to_use": "Pontos estrategicos da rede para monitorar trafego.",
+      "description": "IDS detecta e alerta sobre tráfego suspeito; IPS detecta e bloqueia automaticamente."
+    },
+    {
+      "id": "cisco_asa_5500",
+      "name": "cisco asa 5500",
+      "file": "assets/icons/cisco_asa_5500.png",
+      "category": "security",
+      "curated": true,
+      "glossary_name": "Firewall / ASA",
+      "function": "Controla o que pode ou não passar entre duas redes com níveis de confiança diferentes (ex.: rede interna x Internet), aplicando regras.",
+      "when_to_use": "Entre a rede que se quer proteger e a rede nao confiavel.",
+      "description": "Controla o que pode ou não passar entre duas redes com níveis de confiança diferentes (ex.: rede interna x Internet), aplicando regras."
+    },
+    {
+      "id": "content_switch",
+      "name": "content switch",
+      "file": "assets/icons/content_switch.png",
+      "category": "security",
+      "curated": true,
+      "glossary_name": "Content Switch",
+      "function": "Distribui requisições de rede com base em conteúdo/regra de negócio, não apenas endereço.",
+      "when_to_use": "Balanceamento avancado em data center.",
+      "description": "Distribui requisições de rede com base em conteúdo/regra de negócio, não apenas endereço."
+    },
+    {
+      "id": "vpn_concentrator",
+      "name": "vpn concentrator",
+      "file": "assets/icons/vpn_concentrator.png",
+      "category": "security",
+      "curated": true,
+      "glossary_name": "VPN Concentrator",
+      "function": "Equipamento dedicado a estabelecer e gerenciar muitos túneis VPN simultâneos.",
+      "when_to_use": "Acesso remoto corporativo.",
+      "description": "Equipamento dedicado a estabelecer e gerenciar muitos túneis VPN simultâneos."
+    },
+    {
+      "id": "file_server",
+      "name": "file server",
+      "file": "assets/icons/file_server.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "File Server",
+      "function": "Servidor dedicado a armazenar e compartilhar arquivos entre os usuários da rede.",
+      "when_to_use": "Rede local de empresas e escolas.",
+      "description": "Servidor dedicado a armazenar e compartilhar arquivos entre os usuários da rede."
+    },
+    {
+      "id": "ip_phone",
+      "name": "ip phone",
+      "file": "assets/icons/ip_phone.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "IP Phone",
+      "function": "Telefone que transmite voz digitalizada sobre a rede IP (VoIP), em vez da linha telefônica tradicional.",
+      "when_to_use": "Redes convergentes (dados + voz).",
+      "description": "Telefone que transmite voz digitalizada sobre a rede IP (VoIP), em vez da linha telefônica tradicional."
+    },
+    {
+      "id": "laptop",
+      "name": "laptop",
+      "file": "assets/icons/laptop.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "Laptop",
+      "function": "Mesma função de um PC, mas com mobilidade — conecta via cabo ou Wi-Fi.",
+      "when_to_use": "Dispositivo movel do usuario.",
+      "description": "Mesma função de um PC, mas com mobilidade — conecta via cabo ou Wi-Fi."
+    },
+    {
+      "id": "pc",
+      "name": "pc",
+      "file": "assets/icons/pc.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "PC / Workstation",
+      "function": "Computador de mesa usado por um usuário final — o cliente que consome os serviços da rede.",
+      "when_to_use": "Estacoes de trabalho e laboratorios.",
+      "description": "Computador de mesa usado por um usuário final — o cliente que consome os serviços da rede."
+    },
+    {
+      "id": "printer",
+      "name": "printer",
+      "file": "assets/icons/printer.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "Printer",
+      "function": "Impressora compartilhada na rede, acessível por múltiplos usuários.",
+      "when_to_use": "Recursos compartilhados da rede local.",
+      "description": "Impressora compartilhada na rede, acessível por múltiplos usuários."
+    },
+    {
+      "id": "standard_host",
+      "name": "standard host",
+      "file": "assets/icons/standard_host.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "Server (generico)",
+      "function": "Representa qualquer computador dedicado a fornecer um serviço de rede (arquivos, autenticação, banco de dados etc.).",
+      "when_to_use": "Qualquer servico central da rede.",
+      "description": "Representa qualquer computador dedicado a fornecer um serviço de rede (arquivos, autenticação, banco de dados etc.)."
+    },
+    {
+      "id": "www_server",
+      "name": "www server",
+      "file": "assets/icons/www_server.png",
+      "category": "servers_endpoints",
+      "curated": true,
+      "glossary_name": "Web Server",
+      "function": "Servidor especificamente configurado para hospedar páginas/aplicações acessadas via HTTP/HTTPS.",
+      "when_to_use": "Infraestrutura de aplicacoes e sites.",
+      "description": "Servidor especificamente configurado para hospedar páginas/aplicações acessadas via HTTP/HTTPS."
+    },
+    {
+      "id": "bridge",
+      "name": "bridge",
+      "file": "assets/icons/bridge.png",
+      "category": "switching_l2",
+      "curated": true,
+      "glossary_name": "Bridge",
+      "function": "Equipamento de Camada 2 que divide uma rede em segmentos menores para reduzir colisões — precursor histórico do switch moderno.",
+      "when_to_use": "Contexto historico/conceitual.",
+      "description": "Equipamento de Camada 2 que divide uma rede em segmentos menores para reduzir colisões — precursor histórico do switch moderno."
+    },
+    {
+      "id": "hub",
+      "name": "hub",
+      "file": "assets/icons/hub.png",
+      "category": "switching_l2",
+      "curated": true,
+      "glossary_name": "Hub",
+      "function": "Dispositivo de Camada 1 (Física) — apenas repete o sinal elétrico recebido para todas as portas, sem inteligência de encaminhamento.",
+      "when_to_use": "Uso didatico: dominio de colisao x dominio de broadcast.",
+      "description": "Dispositivo de Camada 1 (Física) — apenas repete o sinal elétrico recebido para todas as portas, sem inteligência de encaminhamento."
+    },
+    {
+      "id": "layer_2_remote_switch",
+      "name": "layer 2 remote switch",
+      "file": "assets/icons/layer_2_remote_switch.png",
+      "category": "switching_l2",
+      "curated": true,
+      "glossary_name": "Switch",
+      "function": "Opera na Camada 2 (Enlace), encaminhando quadros dentro da mesma rede local com base no endereço MAC.",
+      "when_to_use": "Concentrador central de uma LAN.",
+      "description": "Opera na Camada 2 (Enlace), encaminhando quadros dentro da mesma rede local com base no endereço MAC."
+    },
+    {
+      "id": "multilayer_switch",
+      "name": "multilayer switch",
+      "file": "assets/icons/multilayer_switch.png",
+      "category": "switching_l2",
+      "curated": true,
+      "glossary_name": "Multilayer Switch",
+      "function": "Switch que também tem capacidade de rotear (Camada 2 + Camada 3). Muito usado como núcleo (core) de redes corporativas.",
+      "when_to_use": "Centraliza o trafego entre varias VLANs.",
+      "description": "Switch que também tem capacidade de rotear (Camada 2 + Camada 3). Muito usado como núcleo (core) de redes corporativas."
+    },
+    {
+      "id": "accesspoint",
+      "name": "accesspoint",
+      "file": "assets/icons/accesspoint.png",
+      "category": "wireless_mobile",
+      "curated": true,
+      "glossary_name": "Access Point (AP)",
+      "function": "Cria uma célula de cobertura Wi-Fi, conectando dispositivos sem fio à rede cabeada.",
+      "when_to_use": "Cobertura sem fio de uma area.",
+      "description": "Cria uma célula de cobertura Wi-Fi, conectando dispositivos sem fio à rede cabeada."
+    },
+    {
+      "id": "antenna",
+      "name": "antenna",
+      "file": "assets/icons/antenna.png",
+      "category": "wireless_mobile",
+      "curated": true,
+      "glossary_name": "Antenna",
+      "function": "Representa o elemento físico de transmissão/recepção de sinal de rádio.",
+      "when_to_use": "Associado a AP ou wireless bridge.",
+      "description": "Representa o elemento físico de transmissão/recepção de sinal de rádio."
+    },
+    {
+      "id": "cellular_phone",
+      "name": "cellular phone",
+      "file": "assets/icons/cellular_phone.png",
+      "category": "wireless_mobile",
+      "curated": true,
+      "glossary_name": "Cell / Mobile phone",
+      "function": "Dispositivo móvel genérico que se conecta via Wi-Fi ou rede celular.",
+      "when_to_use": "Usuario final movel na topologia.",
+      "description": "Dispositivo móvel genérico que se conecta via Wi-Fi ou rede celular."
+    },
+    {
+      "id": "tablet",
+      "name": "tablet",
+      "file": "assets/icons/tablet.png",
+      "category": "wireless_mobile",
+      "curated": true,
+      "glossary_name": "Tablet",
+      "function": "Dispositivo móvel genérico, semelhante ao celular, mas de tela maior.",
+      "when_to_use": "Usuario final movel na topologia.",
+      "description": "Dispositivo móvel genérico, semelhante ao celular, mas de tela maior."
+    },
+    {
+      "id": "wireless_bridge",
+      "name": "wireless bridge",
+      "file": "assets/icons/wireless_bridge.png",
+      "category": "wireless_mobile",
+      "curated": true,
+      "glossary_name": "Wireless Bridge",
+      "function": "Liga duas redes cabeadas usando um enlace sem fio no meio (ex.: dois prédios sem cabo entre eles).",
+      "when_to_use": "Enlaces ponto a ponto de longa distancia.",
+      "description": "Liga duas redes cabeadas usando um enlace sem fio no meio (ex.: dois prédios sem cabo entre eles)."
+    }
+  ]
+}
